@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <type_traits>
 
-namespace integra
+namespace hwlib::utilities
 {
 
 /// @brief Assemble an unsigned integer from individual bytes LSB-first
@@ -44,4 +44,4 @@ template<std::size_t INDEX, typename Value,
 static_assert(GetByteByIndex<0>(0x0123456789ABCDEFU) == 0xEFU);
 static_assert(GetByteByIndex<7>(0x0123456789ABCDEFU) == 0x01U);
 
-} // namespace integra
+} // namespace hwlib::utilities

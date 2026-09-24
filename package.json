@@ -1,5 +1,5 @@
 {
-  "name": "integra-bit-ops",
+  "name": "hwlib-bit-ops",
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
